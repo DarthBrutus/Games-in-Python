@@ -195,8 +195,8 @@ def main():
     width = 500
     rows = 20
     win = pygame.display.set_mode((width, width))
-    win_title = pygame.display.set_caption('Nonu-Saapandi')
-    img = pygame.image.load('C:\shivansh_python\Games\Snake Run\Logo.png')
+    win_title = pygame.display.set_caption('Snake Run')
+    img = pygame.image.load('Games\Snake Run\Logo.png')
     win_logo = pygame.display.set_icon(img)
     snake = snakeOne((0, 255,0), (10,10))
     snack = cube(randomSnack(rows, snake), color=(255, 0, 0))
