@@ -2,7 +2,7 @@ import turtle as t
 
 #Screen
 win = t.Screen()
-win.title("Krishna")
+win.title("Ping Pong")
 win.bgcolor('blue')
 win.setup(width=800, height=600)
 
